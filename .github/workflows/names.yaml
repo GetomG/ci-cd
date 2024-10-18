@@ -1,0 +1,11 @@
+on:
+    push
+jobs:
+    idle:
+        name: Idel job doing only prints
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: step one two
+                run: 
+                  echo Idle Step
