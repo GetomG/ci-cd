@@ -1,3 +1,4 @@
+name: Names
 on:
     push
 jobs:
@@ -9,3 +10,5 @@ jobs:
                 name: step one two
                 run: 
                   echo Idle Step
+                  sleep 20
+                  echo Waking up
